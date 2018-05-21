@@ -26,6 +26,32 @@
   </head>
 
   <body id="page-top">
+      <SCRIPT>
+        function passWord() {
+        var testV = 1;
+        var pass1 = prompt('Please Enter Your Password',' ');
+        while (testV < 3) {
+        if (!pass1) 
+        history.go(-1);
+        if (pass1.toLowerCase() == "teamtma") {
+        alert('You Got it Right!');
+        window.open('www.thetalormadeagency.com');
+        break;
+        } 
+        testV+=1;
+        var pass1 = 
+        prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+        }
+        if (pass1.toLowerCase()!="password" & testV ==3) 
+        history.go(-1);
+        return " ";
+        } 
+        </SCRIPT>
+        <CENTER>
+        <FORM>
+        <input type="button" value="Enter Protected Area" onClick="passWord()">
+        </FORM>
+        </CENTER>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -335,7 +361,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/SantonioCrop.png" alt="">
               <h4>Santonio Echols</h4>
-              <p class="text-muted">Senior Media Manag</p>
+              <p class="text-muted">Senior Media Manager</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.instagram.com/justemanuell/">
