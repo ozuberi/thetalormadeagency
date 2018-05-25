@@ -3,6 +3,16 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+}
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,15 +23,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #87ceeb;
 }
 
 a:hover {
-  color: #fec503;
+  color: #87ceeb;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #87ceeb !important;
 }
 
 h1,
@@ -70,13 +80,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #87ceeb;
+  border-color: #87ceeb;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #00bfff !important;
+  border-color: #00bfff !important;
   color: white;
 }
 
@@ -172,7 +182,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: skyblue;
-  background-image: url("../img/tmaHeader.png");
+  background-image: url("../img/portfolio/kristinBW.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -205,8 +215,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 400px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
