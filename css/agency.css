@@ -6,10 +6,10 @@
 
 
 #splashscreen {
-    position:absolute;
+    position:relative;
     top:0;
-    left:0;
-    bottom:0;
+    left:110;
+    bottom:110;
     width:100%;
     background-color:white;
 }
@@ -180,7 +180,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
+  text-align: bottom;
   color: skyblue;
   background-image: url("../img/portfolio/kristinBW.png");
   background-repeat: no-repeat;
