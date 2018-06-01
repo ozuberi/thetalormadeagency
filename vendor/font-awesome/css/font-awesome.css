@@ -370,6 +370,9 @@
 .fa-pencil:before {
   content: "\f040";
 }
+.fa-pencil:hover {
+  color: black;
+}
 .fa-map-marker:before {
   content: "\f041";
 }
@@ -702,6 +705,9 @@
 .fa-users:before {
   content: "\f0c0";
 }
+.fa-users:hover {
+  color: black;
+}
 .fa-chain:before,
 .fa-link:before {
   content: "\f0c1";
@@ -922,6 +928,9 @@
 }
 .fa-laptop:before {
   content: "\f109";
+}
+.fa-laptop:hover {
+  color: black;
 }
 .fa-tablet:before {
   content: "\f10a";
@@ -1190,6 +1199,9 @@
 }
 .fa-thumbs-up:before {
   content: "\f164";
+}
+.fa-thumbs-up:hover {
+  color: black;
 }
 .fa-thumbs-down:before {
   content: "\f165";
